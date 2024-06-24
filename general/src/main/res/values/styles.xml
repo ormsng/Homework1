@@ -1,0 +1,7 @@
+<resources>
+    <!-- Define the base button style -->
+    <style name="BaseButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textSize">18sp</item>
+        <!-- Other default styles can be set here -->
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <!-- Define a style for the navy button -->
+    <style name="BaseButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@android:color/white</item> <!-- White text color -->
+        <item name="android:backgroundTint">@color/navy</item> <!-- Navy background tint -->
+    </style>
+
+    <!-- Define the application theme that sets BaseButtonStyle as the default button style -->
+    <style name="GarageTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:buttonStyle">@style/BaseButtonStyle</item>
+        <!-- Include other theme attributes as necessary -->
+    </style>
+</resources>
